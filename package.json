@@ -11,8 +11,8 @@
   "dependencies": {
     "frontmatter-markdown-loader": "3.6.2",
     "next": "9.3.6",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
     "react-reveal": "1.2.2",
     "react-typed": "1.2.0"
   }
