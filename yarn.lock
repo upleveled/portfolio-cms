@@ -1617,11 +1617,6 @@
   resolved "https://registry.yarnpkg.com/@upleveled/eslint-config-upleveled/-/eslint-config-upleveled-4.0.10.tgz#57b4c751a263808edfa066a6a1cf9073765d197a"
   integrity sha512-qTla15vgnzm/SB6kXPQErBHIwfciUBXD77GvTBHEhP2ZGTurVIC3vFbK/M48qXlXGx8VosMCWVhIsTv4AL4jug==
 
-"@upleveled/eslint-plugin-upleveled@2.1.6":
-  version "2.1.6"
-  resolved "https://registry.yarnpkg.com/@upleveled/eslint-plugin-upleveled/-/eslint-plugin-upleveled-2.1.6.tgz#73d13e462d41cf64e9fdbc3da046589d1075ab3e"
-  integrity sha512-TSJhqDg+EZNflHQGJbcqKbuwSY30iY3Q7EwUo7+SVzntlbXSwnrZzNWeyUqT+UUumedIpYgfcxi7rFlTVq+U5w==
-
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -3004,6 +2999,11 @@ eslint-plugin-unicorn@45.0.2:
     safe-regex "^2.1.1"
     semver "^7.3.8"
     strip-indent "^3.0.0"
+
+eslint-plugin-upleveled@2.1.7:
+  version "2.1.7"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-upleveled/-/eslint-plugin-upleveled-2.1.7.tgz#84fdf79564c586254c8380ce0532ba965d5de03f"
+  integrity sha512-kLFzp4Ky3u+cKAB/VQsDIjoUJYRt0nW3ULoXh+0eCG45EEmudcmU/9+HaDj2etzbtQIT2CQPbCTCAbpHRdfo5g==
 
 eslint-scope@5.1.1, eslint-scope@^5.1.1:
   version "5.1.1"
