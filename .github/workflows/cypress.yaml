@@ -1,4 +1,4 @@
-name: Cypress tests
+name: Lint, Check Types, Cypress Test
 on: [push]
 
 jobs:
@@ -9,16 +9,18 @@ jobs:
         uses: actions/checkout@v3
         uses: pnpm/action-setup@v2
         with:
-          version: '8'
+          version: 'latest'
       # Use the official setup-node action (sets up Node.js):
       # https://github.com/actions/setup-node
       - name: Use Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: 'lts/*'
           cache: 'pnpm'
       - name: Install dependencies
         run: pnpm install
+      - run: pnpm eslint . --max-warnings 0
+      - run: pnpm tsc
       # Use Cypress GitHub action to run tests
       # https://github.com/cypress-io/github-action
       - name: Cypress run
