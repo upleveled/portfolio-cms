@@ -4,7 +4,7 @@ const About = ({ data }) => {
   const { heading, text, image } = data;
   return (
     <div
-      data-cy="who-am-i"
+      data-test-id="who-am-i"
       id="about"
       className="w-screen grid grid-flow-cols grid-rows-2 md:grid-cols-2 md:grid-rows-1 text-gray-800"
     >
