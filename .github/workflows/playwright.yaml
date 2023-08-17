@@ -1,0 +1,32 @@
+name: Playwright Test
+on: push
+
+jobs:
+  e2e-tests:
+    name: Playwright test
+    runs-on: ubuntu-latest # or macos-latest, windows-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 'latest'
+      # Use the official setup-node action (sets up Node.js):
+      # https://github.com/actions/setup-node
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 'lts/*'
+          cache: 'pnpm'
+      - name: Install dependencies
+        run: pnpm install
+      - name: Build Next.js app
+        run: pnpm build
+      - name: Install Playwright
+        run: pnpm playwright install --with-deps chromium
+      - name: Run tests
+        run: pnpm playwright test
+      - uses: actions/upload-artifact@v3
+        if: failure()
+        with:
+          name: playwright-screenshots-videos
+          path: playwright/test-results/
