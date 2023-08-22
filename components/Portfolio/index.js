@@ -5,7 +5,7 @@ const Portfolio = ({ data }) => {
   return (
     <div
       id="portfolio"
-      data-test-id="my-work"
+      data-test-id="myWork"
       className="w-screen text-gray-800 px-4 py-16 md:p-16 lg:p-32"
     >
       <Fade left>
