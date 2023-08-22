@@ -31,20 +31,20 @@ const Hero = ({ data }) => {
           />
         </h2>
         <div className="hero__buttons flex justify-center my-3">
-          <button
+          <Link
             href={firstButton.link}
             className="font-bold border-solid border-2 border-white py-3 px-5 mx-3 hover:bg-white hover:text-gray-800"
           >
             <i className={`mdi mdi-${firstButton.icon} mr-2 text-xl`} />
             {firstButton.text}
-          </button>
-          <button
+          </Link>
+          <Link
             href={secondButton.link}
             className="font-bold border-solid border-2 border-white py-3 px-5 mx-3 hover:bg-white hover:text-gray-800"
           >
             <i className={`mdi mdi-${secondButton.icon} mr-2 text-xl`} />
             {secondButton.text}
-          </button>
+          </Link>
         </div>
         <div className="hero__social flex justify-center py-3">
           {social.facebook.show && (
