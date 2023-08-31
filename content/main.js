@@ -3,11 +3,11 @@ export const attributes = {
     firstButton: {
       icon: 'briefcase-outline',
       link: '/#portfolio',
-      text: 'My work',
+      text: 'Portfolio',
     },
     heading: "I'm Paco Cu, and I create",
     image: '/img/hero.jpeg',
-    secondButton: { icon: 'whatsapp', link: '/#about', text: 'Contact' },
+    secondButton: { icon: 'whatsapp', link: '/#about', text: 'About me' },
     social: {
       facebook: { link: 'https://facebook.com', show: true },
       instagram: { link: 'https://instagram.com', show: true },
