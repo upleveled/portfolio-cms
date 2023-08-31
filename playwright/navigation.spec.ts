@@ -9,7 +9,9 @@ test('Navigate and check content', async ({ page }) => {
 
   await page.getByRole('link', { name: 'My work' }).click();
   await page.waitForURL('/#portfolio');
+  await expect(page.getByTestId('myWork')).toBeInViewport();
 
   await page.getByRole('link', { name: 'Contact' }).click();
   await page.waitForURL('/#about');
+  await expect(page.getByTestId('whoAmI')).toBeInViewport();
 });
