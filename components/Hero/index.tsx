@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Typed from 'react-typed';
+import { ReactTyped } from 'react-typed';
 import { attributes } from '../../content/main';
 
 type Props = {
@@ -27,7 +27,7 @@ export default function Hero({ data }: Props) {
       <div className="hero__content text-center z-40">
         <h1 className="text-2xl font-bold">{heading}</h1>
         <h2 className="text-5xl font-bold" style={{ minHeight: '70px' }}>
-          <Typed
+          <ReactTyped
             strings={typedStrings}
             typeSpeed={70}
             backSpeed={50}
