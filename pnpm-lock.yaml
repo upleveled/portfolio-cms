@@ -30,9 +30,6 @@ importers:
       '@playwright/test':
         specifier: 1.48.2
         version: 1.48.2
-      '@types/eslint':
-        specifier: 9.6.1
-        version: 9.6.1
       '@types/node':
         specifier: 22.9.0
         version: 22.9.0
