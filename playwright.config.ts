@@ -1,4 +1,4 @@
-import { PlaywrightTestConfig } from '@playwright/test';
+import type { PlaywrightTestConfig } from '@playwright/test';
 
 // Config file docs: https://playwright.dev/docs/test-configuration
 const config: PlaywrightTestConfig = {
