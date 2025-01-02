@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@playwright/test": "1.49.1",
-    "@types/node": "22.10.3",
+    "@types/node": "22.10.4",
     "@types/react": "19.0.2",
     "@types/react-dom": "19.0.2",
     "@types/sharp": "0.32.0",
