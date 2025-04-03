@@ -10,7 +10,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "15.2.3",
+    "next": "15.2.4",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "react-reveal": "1.2.2",
