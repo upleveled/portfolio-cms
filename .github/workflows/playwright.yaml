@@ -6,7 +6,7 @@ jobs:
     name: Playwright Tests
     runs-on: ubuntu-latest # or macos-latest, windows-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: pnpm/action-setup@v4
 
       # Use the official setup-node action (sets up Node.js):
