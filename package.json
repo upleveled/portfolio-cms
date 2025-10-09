@@ -10,28 +10,28 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "15.5.2",
-    "react": "19.1.1",
-    "react-dom": "19.1.1",
+    "next": "15.5.4",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
     "react-reveal": "1.2.2",
     "react-typed": "2.0.12",
-    "sharp": "0.34.3"
+    "sharp": "0.34.4"
   },
   "devDependencies": {
-    "@playwright/test": "1.55.0",
-    "@types/node": "24.3.1",
-    "@types/react": "19.1.12",
-    "@types/react-dom": "19.1.9",
+    "@playwright/test": "1.55.1",
+    "@types/node": "24.6.2",
+    "@types/react": "19.2.0",
+    "@types/react-dom": "19.2.0",
     "@types/sharp": "0.32.0",
-    "eslint": "9.34.0",
-    "eslint-config-upleveled": "9.2.14",
+    "eslint": "9.36.0",
+    "eslint-config-upleveled": "9.4.0",
     "postcss": "8.5.6",
     "prettier": "^3.2.5",
-    "stylelint": "16.23.1",
-    "stylelint-config-upleveled": "2.0.1",
-    "typescript": "5.9.2"
+    "stylelint": "16.24.0",
+    "stylelint-config-upleveled": "2.0.2",
+    "typescript": "5.9.3"
   },
-  "packageManager": "pnpm@10.15.1",
+  "packageManager": "pnpm@10.17.1",
   "pnpm": {
     "onlyBuiltDependencies": [
       "sharp",
