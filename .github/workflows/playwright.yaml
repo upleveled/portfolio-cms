@@ -12,7 +12,7 @@ jobs:
       # Use the official setup-node action (sets up Node.js):
       # https://github.com/actions/setup-node
       - name: Use Node.js
-        uses: actions/setup-node@v5
+        uses: actions/setup-node@v6
         with:
           node-version: 'lts/*'
           cache: 'pnpm'
@@ -41,7 +41,7 @@ jobs:
 
       - name: Run tests
         run: pnpm playwright test
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v5
         if: failure()
         with:
           name: playwright-screenshots-videos
