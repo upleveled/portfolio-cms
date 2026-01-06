@@ -30,7 +30,9 @@ yarn-error.log*
 .env.production.local
 .eslintcache
 
+# typescript
 *.tsbuildinfo
+next-env.d.ts
 
 /playwright/test-results/
 /playwright/report/
