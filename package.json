@@ -10,7 +10,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "16.1.5",
+    "next": "16.1.6",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "react-reveal": "1.2.2",
@@ -18,23 +18,23 @@
     "sharp": "0.34.5"
   },
   "devDependencies": {
-    "@playwright/test": "1.58.1",
-    "@types/node": "25.2.0",
-    "@types/react": "19.2.13",
+    "@playwright/test": "1.58.2",
+    "@types/node": "25.3.1",
+    "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
     "@types/sharp": "0.32.0",
     "eslint": "9.39.2",
-    "eslint-config-upleveled": "9.4.6",
+    "eslint-config-upleveled": "9.4.8",
     "postcss": "8.5.6",
     "prettier": "3.8.1",
-    "stylelint": "17.1.1",
+    "stylelint": "17.4.0",
     "stylelint-config-upleveled": "2.0.5",
     "typescript": "5.9.3"
   },
-  "packageManager": "pnpm@10.28.2+sha512.41872f037ad22f7348e3b1debbaf7e867cfd448f2726d9cf74c08f19507c31d2c8e7a11525b983febc2df640b5438dee6023ebb1f84ed43cc2d654d2bc326264",
+  "packageManager": "pnpm@10.30.3+sha512.c961d1e0a2d8e354ecaa5166b822516668b7f44cb5bd95122d590dd81922f606f5473b6d23ec4a5be05e7fcd18e8488d47d978bbe981872f1145d06e9a740017",
   "pnpm": {
     "overrides": {
-      "@types/react": "19.2.13",
+      "@types/react": "19.2.14",
       "@types/react-dom": "19.2.3"
     }
   }
