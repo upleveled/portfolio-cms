@@ -14,8 +14,8 @@ minimumReleaseAgeExclude:
   - stylelint-config-upleveled
   # Renovate security update: next@16.1.5 || 16.2.6 || 16.2.11
   - next@16.1.5 || 16.2.6 || 16.2.11
-  # Renovate security update: postcss@8.5.10 || 8.5.18
-  - postcss@8.5.10 || 8.5.18
+  # Renovate security update: postcss@8.5.10 || 8.5.18 || 8.5.23
+  - postcss@8.5.10 || 8.5.18 || 8.5.23
 # Fail on pnpm ignored build scripts
 # - https://pnpm.io/settings#strictdepbuilds
 strictDepBuilds: true
