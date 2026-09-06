@@ -1,9 +1,12 @@
 onlyBuiltDependencies:
   - sharp
-ignoredBuiltDependencies:
+allowBuilds:
   # unrs-resolver postinstall only required for npm <v11 bug
   # - https://github.com/unrs/unrs-resolver/issues/85#issuecomment-3435918759
-  - unrs-resolver
+  unrs-resolver: false
+overrides:
+  '@types/react': 19.2.18
+  '@types/react-dom': 19.2.5
 # Prevents installation of packages newer than 7 days
 # to mitigate supply chain risks
 # - https://pnpm.io/settings#minimumreleaseage
@@ -19,5 +22,3 @@ minimumReleaseAgeExclude:
 # Fail on pnpm ignored build scripts
 # - https://pnpm.io/settings#strictdepbuilds
 strictDepBuilds: true
-allowBuilds:
-  unrs-resolver: set this to true or false

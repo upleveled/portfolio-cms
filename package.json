@@ -31,11 +31,5 @@
     "stylelint-config-upleveled": "2.0.5",
     "typescript": "5.9.3"
   },
-  "packageManager": "pnpm@11.25.0+sha512.5cde925b4f075f725eb6ad7fabe18a0bff8717924789f19b71cc72e1ec28aaee160e81a556af72d6a72cdbf300efe303efe23dacb0d4a17b4d61f8a7df259586",
-  "pnpm": {
-    "overrides": {
-      "@types/react": "19.2.18",
-      "@types/react-dom": "19.2.5"
-    }
-  }
+  "packageManager": "pnpm@11.25.0+sha512.5cde925b4f075f725eb6ad7fabe18a0bff8717924789f19b71cc72e1ec28aaee160e81a556af72d6a72cdbf300efe303efe23dacb0d4a17b4d61f8a7df259586"
 }

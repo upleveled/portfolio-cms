@@ -4,6 +4,10 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  '@types/react': 19.2.18
+  '@types/react-dom': 19.2.5
+
 importers:
 
   .:
@@ -591,7 +595,7 @@ packages:
   '@types/react-dom@19.2.5':
     resolution: {integrity: sha512-fMPwH9v7r/pp43yUd2/Mbiex5KouJwwR3dzHkhLREUC6764VyDsqxhAxv6OFEYR1RhjOyD1naqba8ECDBe7ZQg==}
     peerDependencies:
-      '@types/react': ^19.2.0
+      '@types/react': 19.2.18
 
   '@types/react@19.2.18':
     resolution: {integrity: sha512-AnzbBERsrLKtk2XSfTbYRLjQPdy116Sty4q+T+Bp3IC4l6jNBvreVPAHmpq9qhXQM7CXZPjLVmGMw9sy+hxQ3w==}
@@ -1109,8 +1113,8 @@ packages:
     hasBin: true
     peerDependencies:
       '@types/node': '>=26.4.0'
-      '@types/react': ^19.2.18
-      '@types/react-dom': ^19.2.5
+      '@types/react': 19.2.18
+      '@types/react-dom': 19.2.5
       eslint: ^9.39.2
       globals: ^17.11.0
       typescript: ^6.0.3
