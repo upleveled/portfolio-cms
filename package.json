@@ -24,7 +24,7 @@
     "@types/react-dom": "19.2.5",
     "@types/sharp": "0.32.0",
     "eslint": "10.9.1",
-    "eslint-config-upleveled": "10.0.2",
+    "eslint-config-upleveled": "10.0.3",
     "postcss": "8.5.26",
     "prettier": "3.9.6",
     "stylelint": "17.14.1",
