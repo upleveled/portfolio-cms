@@ -3,8 +3,4 @@
 
 # Deploy on Netlify
 
-Use  `export` as build command
- 
-```js
-yarn export
-```
+Use `pnpm build` as the build command and `.next` as the publish directory.

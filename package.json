@@ -6,13 +6,12 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "export": "pnpm build && next export",
     "start": "next start"
   },
   "dependencies": {
-    "next": "16.3.3",
-    "react": "19.2.8",
-    "react-dom": "19.2.8",
+    "next": "16.4.6",
+    "react": "19.2.9",
+    "react-dom": "19.2.9",
     "react-reveal": "1.2.2",
     "react-typed": "2.0.12",
     "sharp": "0.35.4"
@@ -24,7 +23,7 @@
     "@types/react-dom": "19.2.5",
     "@types/sharp": "0.32.0",
     "eslint": "10.9.1",
-    "eslint-config-upleveled": "10.0.3",
+    "eslint-config-upleveled": "11.0.3",
     "postcss": "8.5.26",
     "prettier": "3.9.6",
     "stylelint": "17.14.1",

@@ -2,16 +2,20 @@ export const attributes = {
   hero: {
     firstButton: {
       icon: 'briefcase-outline',
-      link: '/#portfolio',
+      link: '/#portfolio' as const,
       text: 'Portfolio',
     },
     heading: "I'm Paco Cu, and I create",
     image: '/img/hero.jpeg',
-    secondButton: { icon: 'whatsapp', link: '/#about', text: 'About me' },
+    secondButton: {
+      icon: 'whatsapp',
+      link: '/#about' as const,
+      text: 'About me',
+    },
     social: {
-      facebook: { link: 'https://facebook.com', show: true },
-      instagram: { link: 'https://instagram.com', show: true },
-      linkedin: { link: 'https://linkedin.com', show: true },
+      facebook: { link: 'https://facebook.com' as const, show: true },
+      instagram: { link: 'https://instagram.com' as const, show: true },
+      linkedin: { link: 'https://linkedin.com' as const, show: true },
     },
     typed: [
       { text: 'fast websites.' },
@@ -79,7 +83,7 @@ export const attributes = {
         image: '/img/project-6.jpeg',
         title: 'UIoUXy',
       },
-    ],
+    ] as const,
     title: 'My work',
   },
   footer: { text: '© John Doe' },
