@@ -2,16 +2,20 @@ export const attributes = {
   hero: {
     firstButton: {
       icon: 'briefcase-outline',
-      link: '/#portfolio',
+      link: '/#portfolio' as const,
       text: 'Portfolio',
     },
     heading: "I'm Paco Cu, and I create",
     image: '/img/hero.jpeg',
-    secondButton: { icon: 'whatsapp', link: '/#about', text: 'About me' },
+    secondButton: {
+      icon: 'whatsapp',
+      link: '/#about' as const,
+      text: 'About me',
+    },
     social: {
-      facebook: { link: 'https://facebook.com', show: true },
-      instagram: { link: 'https://instagram.com', show: true },
-      linkedin: { link: 'https://linkedin.com', show: true },
+      facebook: { link: 'https://facebook.com' as const, show: true },
+      instagram: { link: 'https://instagram.com' as const, show: true },
+      linkedin: { link: 'https://linkedin.com' as const, show: true },
     },
     typed: [
       { text: 'fast websites.' },
@@ -44,37 +48,37 @@ export const attributes = {
   portfolio: {
     projects: [
       {
-        btnLink: 'https://behance.com',
+        btnLink: 'https://behance.com' as const,
         btnText: 'View on Behance',
         image: '/img/project-1.jpeg',
         title: 'ShopoShopy',
       },
       {
-        btnLink: 'https://behance.com',
+        btnLink: 'https://behance.com' as const,
         btnText: 'View on Behance',
         image: '/img/project-2.jpeg',
         title: 'LogoLogy',
       },
       {
-        btnLink: 'https://behance.com',
+        btnLink: 'https://behance.com' as const,
         btnText: 'View on Behance',
         image: '/img/project-3.jpeg',
         title: 'SitoSity',
       },
       {
-        btnLink: 'https://behance.com',
+        btnLink: 'https://behance.com' as const,
         btnText: 'View on Behance',
         image: '/img/project-4.jpeg',
         title: 'DrawoDrawy',
       },
       {
-        btnLink: 'https://behance.com',
+        btnLink: 'https://behance.com' as const,
         btnText: 'View on Behance',
         image: '/img/project-5.jpeg',
         title: 'PagoPagy',
       },
       {
-        btnLink: 'https://behance.com',
+        btnLink: 'https://behance.com' as const,
         btnText: 'View on Behance',
         image: '/img/project-6.jpeg',
         title: 'UIoUXy',

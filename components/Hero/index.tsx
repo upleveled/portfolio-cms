@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { ReactTyped } from 'react-typed';
 import { attributes } from '../../content/main';
 
@@ -35,48 +36,48 @@ export default function Hero({ data }: Props) {
           />
         </h2>
         <div className="hero__buttons flex justify-center my-3">
-          <a
+          <Link
             href={firstButton.link}
             className="font-bold border-solid border-2 border-white py-3 px-5 mx-3 hover:bg-white hover:text-gray-800"
           >
             <i className={`mdi mdi-${firstButton.icon} mr-2 text-xl`} />
             {firstButton.text}
-          </a>
-          <a
+          </Link>
+          <Link
             href={secondButton.link}
             className="font-bold border-solid border-2 border-white py-3 px-5 mx-3 hover:bg-white hover:text-gray-800"
           >
             <i className={`mdi mdi-${secondButton.icon} mr-2 text-xl`} />
             {secondButton.text}
-          </a>
+          </Link>
         </div>
         <div className="hero__social flex justify-center py-3">
           {social.facebook.show && (
-            <a
+            <Link
               href={social.facebook.link}
               target="_blank"
               className="mx-2 px-1 text-xl hover:bg-gray-800 rounded-lg"
             >
               <i className="mdi mdi-facebook" />
-            </a>
+            </Link>
           )}
           {social.instagram.show && (
-            <a
+            <Link
               href={social.instagram.link}
               target="_blank"
               className="mx-2 px-1 text-xl hover:bg-gray-800 rounded-lg"
             >
               <i className="mdi mdi-instagram" />
-            </a>
+            </Link>
           )}
           {social.linkedin.show && (
-            <a
+            <Link
               href={social.linkedin.link}
               target="_blank"
               className="mx-2 px-1 text-xl hover:bg-gray-800 rounded-lg"
             >
               <i className="mdi mdi-linkedin" />
-            </a>
+            </Link>
           )}
         </div>
       </div>
