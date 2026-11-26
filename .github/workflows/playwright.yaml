@@ -21,6 +21,8 @@ jobs:
         run: pnpm install
       - name: Build Next.js app
         run: pnpm build
+      - name: Check TypeScript types
+        run: pnpm tsc
 
       # Cache and install Playwright browser binaries, modified version of:
       # https://github.com/microsoft/playwright/issues/7249#issuecomment-1154603556
