@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import Fade from 'react-reveal/Slide';
 import { attributes } from '../../content/main';
 
@@ -28,13 +27,13 @@ export default function Portfolio({ data }: Props) {
             >
               <div className="w-full h-full py-16 text-center text-transparent hover:text-white hover:bg-black hover:opacity-75">
                 <h4>{project.title}</h4>
-                <Link
+                <a
                   href={project.btnLink}
                   target="_blank"
                   className="font-bold py-3 px-5 my-3 hover:bg-white hover:text-gray-800"
                 >
                   {project.btnText}
-                </Link>
+                </a>
               </div>
             </div>
           ))}

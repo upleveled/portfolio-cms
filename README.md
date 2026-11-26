@@ -6,5 +6,5 @@
 Use  `export` as build command
  
 ```js
-yarn export
+pnpm export
 ```
